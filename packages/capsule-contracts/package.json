@@ -1,8 +1,13 @@
 {
   "name": "@capsule/contracts",
   "version": "0.0.1",
-  "dependencies": {},
+  "scripts": {
+    "lint": "eslint ."
+  },
   "main": "./index.cjs",
   "module": "./index.js",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "eslint": "^9.20.1"
+  }
 }
