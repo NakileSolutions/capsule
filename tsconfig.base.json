@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@capsule/contracts": ["packages/capsule-contracts/src/index.ts"],
       "@capsule/gateway": ["packages/gateway/src/index.ts"],
       "@capsule/interactions": ["packages/interactions/src/index.ts"],
       "@capsule/magazine": ["packages/magazine/src/index.ts"],

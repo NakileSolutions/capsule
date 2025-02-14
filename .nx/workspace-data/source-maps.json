@@ -385,6 +385,124 @@
       "nx/core/project-json"
     ]
   },
+  "applications/capsule-backend-e2e": {
+    "root": [
+      "applications/capsule-backend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "applications/capsule-backend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint": [
+      "applications/capsule-backend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "applications/capsule-backend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "applications/capsule-backend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "applications/capsule-backend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "applications/capsule-backend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "applications/capsule-backend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "applications/capsule-backend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "applications/capsule-backend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "applications/capsule-backend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "applications/capsule-backend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "applications/capsule-backend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "applications/capsule-backend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "applications/capsule-backend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "applications/capsule-backend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "applications/capsule-backend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "applications/capsule-backend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "applications/capsule-backend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "applications/capsule-backend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "applications/capsule-backend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.capsule-backend": [
+      "applications/capsule-backend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e": [
+      "applications/capsule-backend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.executor": [
+      "applications/capsule-backend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.outputs": [
+      "applications/capsule-backend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.options": [
+      "applications/capsule-backend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.dependsOn": [
+      "applications/capsule-backend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.options.jestConfig": [
+      "applications/capsule-backend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.options.passWithNoTests": [
+      "applications/capsule-backend-e2e/project.json",
+      "nx/core/project-json"
+    ]
+  },
   "applications/capsule-backend": {
     "root": [
       "applications/capsule-backend/project.json",
@@ -703,124 +821,6 @@
       "nx/core/project-json"
     ]
   },
-  "applications/capsule-backend-e2e": {
-    "root": [
-      "applications/capsule-backend-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets": [
-      "applications/capsule-backend-e2e/eslint.config.js",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint": [
-      "applications/capsule-backend-e2e/eslint.config.js",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint.cache": [
-      "applications/capsule-backend-e2e/eslint.config.js",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint.options": [
-      "applications/capsule-backend-e2e/eslint.config.js",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint.inputs": [
-      "applications/capsule-backend-e2e/eslint.config.js",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint.outputs": [
-      "applications/capsule-backend-e2e/eslint.config.js",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint.metadata": [
-      "applications/capsule-backend-e2e/eslint.config.js",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint.executor": [
-      "applications/capsule-backend-e2e/eslint.config.js",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint.options.cwd": [
-      "applications/capsule-backend-e2e/eslint.config.js",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint.options.command": [
-      "applications/capsule-backend-e2e/eslint.config.js",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint.metadata.technologies": [
-      "applications/capsule-backend-e2e/eslint.config.js",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint.metadata.technologies.0": [
-      "applications/capsule-backend-e2e/eslint.config.js",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint.metadata.description": [
-      "applications/capsule-backend-e2e/eslint.config.js",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint.metadata.help": [
-      "applications/capsule-backend-e2e/eslint.config.js",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint.metadata.help.command": [
-      "applications/capsule-backend-e2e/eslint.config.js",
-      "@nx/eslint/plugin"
-    ],
-    "targets.lint.metadata.help.example": [
-      "applications/capsule-backend-e2e/eslint.config.js",
-      "@nx/eslint/plugin"
-    ],
-    "name": [
-      "applications/capsule-backend-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "$schema": [
-      "applications/capsule-backend-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "projectType": [
-      "applications/capsule-backend-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "implicitDependencies": [
-      "applications/capsule-backend-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "implicitDependencies.capsule-backend": [
-      "applications/capsule-backend-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e": [
-      "applications/capsule-backend-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.executor": [
-      "applications/capsule-backend-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.outputs": [
-      "applications/capsule-backend-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.options": [
-      "applications/capsule-backend-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.dependsOn": [
-      "applications/capsule-backend-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.options.jestConfig": [
-      "applications/capsule-backend-e2e/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.e2e.options.passWithNoTests": [
-      "applications/capsule-backend-e2e/project.json",
-      "nx/core/project-json"
-    ]
-  },
   "applications/capsule-frontend-e2e": {
     "root": [
       "applications/capsule-frontend-e2e/project.json",
@@ -1125,6 +1125,220 @@
     "targets.e2e-ci--src/example.spec.ts.dependsOn": [
       "nx.json",
       "nx/target-defaults"
+    ]
+  },
+  "packages/capsule-contracts": {
+    "root": [
+      "packages/capsule-contracts/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "packages/capsule-contracts/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint": [
+      "packages/capsule-contracts/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "packages/capsule-contracts/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "packages/capsule-contracts/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "packages/capsule-contracts/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "packages/capsule-contracts/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "packages/capsule-contracts/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "packages/capsule-contracts/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "packages/capsule-contracts/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "packages/capsule-contracts/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "packages/capsule-contracts/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "packages/capsule-contracts/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "packages/capsule-contracts/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "packages/capsule-contracts/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "packages/capsule-contracts/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "packages/capsule-contracts/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.test": [
+      "packages/capsule-contracts/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options": [
+      "packages/capsule-contracts/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata": [
+      "packages/capsule-contracts/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.cache": [
+      "packages/capsule-contracts/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.inputs": [
+      "packages/capsule-contracts/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.outputs": [
+      "packages/capsule-contracts/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.executor": [
+      "packages/capsule-contracts/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options.cwd": [
+      "packages/capsule-contracts/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options.command": [
+      "packages/capsule-contracts/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.technologies": [
+      "packages/capsule-contracts/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.technologies.0": [
+      "packages/capsule-contracts/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.description": [
+      "packages/capsule-contracts/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help": [
+      "packages/capsule-contracts/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help.command": [
+      "packages/capsule-contracts/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help.example": [
+      "packages/capsule-contracts/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.build": [
+      "packages/capsule-contracts/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.options": [
+      "packages/capsule-contracts/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.cache": [
+      "packages/capsule-contracts/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.dependsOn": [
+      "packages/capsule-contracts/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.inputs": [
+      "packages/capsule-contracts/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.outputs": [
+      "packages/capsule-contracts/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.executor": [
+      "packages/capsule-contracts/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.options.cwd": [
+      "packages/capsule-contracts/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.options.command": [
+      "packages/capsule-contracts/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "sourceRoot": [
+      "packages/capsule-contracts/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "packages/capsule-contracts/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "packages/capsule-contracts/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "packages/capsule-contracts/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "packages/capsule-contracts/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/capsule-contracts/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/capsule-contracts/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/capsule-contracts/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/capsule-contracts/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/capsule-contracts/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "packages/capsule-contracts/project.json",
+      "nx/core/project-json"
+    ],
+    "// targets": [
+      "packages/capsule-contracts/project.json",
+      "nx/core/project-json"
     ]
   },
   "packages/gateway": {
