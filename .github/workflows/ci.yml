@@ -10,32 +10,24 @@ jobs:
   lint:
     name: Linting Services
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        service:
-          - name: capsule-backend
-            dir: .
-            command: "pnpm exec eslint ./applications/capsule-backend"
-          - name: capsule-contracts
-            dir: .
-            command: "pnpm -F @capsule/contracts install && pnpm -F @capsule/contracts lint"
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '22.14.0'
-
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v2
-        with:
-          version: '7'
+          cache: 'pnpm'
 
       - name: Install dependencies
-        run: pnpm install
+        run: pnpm install --frozen-lockfile
 
-      - name: Lint ${{ matrix.service.name }}
-        working-directory: ${{ matrix.service.dir }}
-        run: ${{ matrix.service.command }}
+      - uses: nrwl/nx-set-shas@v4
+
+      - name: Lint
+        run: "pnpm exec nx run-many -t=lint"

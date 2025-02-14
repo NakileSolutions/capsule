@@ -1,7 +1,0 @@
-[2m> [22mrollup -c rollup.config.js
-
-[36m
-[1mC:\Users\amine\projects\capsule\packages\capsule-contracts\src\index.ts[22m → [1m../../dist/packages/contracts, ../../dist/packages/contracts[22m...[39m
-  [1mindex.cjs.js[22m [36m290.332 KB[39m
-  [1mindex.esm.js[22m [36m290.301 KB[39m
-[32mcreated [1m../../dist/packages/contracts, ../../dist/packages/contracts[22m in [1m2.1s[22m[39m
