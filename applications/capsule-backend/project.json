@@ -1,0 +1,26 @@
+{
+  "name": "capsule-backend",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "applications/capsule-backend/src",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "serve": {
+      "executor": "@nx/js:node",
+      "defaultConfiguration": "development",
+      "dependsOn": ["build"],
+      "options": {
+        "buildTarget": "capsule-backend:build",
+        "runBuildTargetDependencies": false
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "capsule-backend:build:development"
+        },
+        "production": {
+          "buildTarget": "capsule-backend:build:production"
+        }
+      }
+    }
+  }
+}
