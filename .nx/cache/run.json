@@ -1,0 +1,32 @@
+{
+  "run": {
+    "command": "nx run capsule-backend:build:development",
+    "startTime": "2025-02-14T21:46:26.228Z",
+    "endTime": "2025-02-14T21:46:26.283Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "contracts:build",
+      "target": "build",
+      "projectName": "contracts",
+      "hash": "3773575730654000439",
+      "startTime": "2025-02-14T21:46:26.247Z",
+      "endTime": "2025-02-14T21:46:26.257Z",
+      "params": "",
+      "cacheStatus": "local-cache-hit",
+      "status": 0
+    },
+    {
+      "taskId": "capsule-backend:build",
+      "target": "build",
+      "projectName": "capsule-backend",
+      "hash": "11784926585369739338",
+      "startTime": "2025-02-14T21:46:26.269Z",
+      "endTime": "2025-02-14T21:46:26.277Z",
+      "params": "",
+      "cacheStatus": "local-cache-hit",
+      "status": 0
+    }
+  ]
+}

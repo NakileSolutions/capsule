@@ -852,5 +852,371 @@
         ]
       }
     }
+  },
+  "17711658155079725158": {
+    "targets": {
+      "e2e": {
+        "command": "playwright test",
+        "options": {
+          "cwd": "{projectRoot}"
+        },
+        "parallelism": false,
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests",
+          "help": {
+            "command": "pnpm exec playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}\\dist\\.playwright\\applications\\capsule-frontend-e2e\\playwright-report",
+          "{workspaceRoot}\\dist\\.playwright\\applications\\capsule-frontend-e2e\\test-output"
+        ]
+      },
+      "e2e-ci--src/example.spec.ts": {
+        "command": "playwright test src/example.spec.ts",
+        "options": {
+          "cwd": "{projectRoot}"
+        },
+        "parallelism": false,
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests in src/example.spec.ts in CI",
+          "help": {
+            "command": "pnpm exec playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}\\dist\\.playwright\\applications\\capsule-frontend-e2e\\playwright-report",
+          "{workspaceRoot}\\dist\\.playwright\\applications\\capsule-frontend-e2e\\test-output"
+        ]
+      },
+      "e2e-ci": {
+        "executor": "nx:noop",
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}\\dist\\.playwright\\applications\\capsule-frontend-e2e\\playwright-report",
+          "{workspaceRoot}\\dist\\.playwright\\applications\\capsule-frontend-e2e\\test-output"
+        ],
+        "dependsOn": [
+          {
+            "target": "e2e-ci--src/example.spec.ts",
+            "projects": "self",
+            "params": "forward"
+          }
+        ],
+        "parallelism": false,
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests in CI",
+          "nonAtomizedTarget": "e2e",
+          "help": {
+            "command": "pnpm exec playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "metadata": {
+      "targetGroups": {
+        "E2E (CI)": [
+          "e2e-ci--src/example.spec.ts",
+          "e2e-ci"
+        ]
+      }
+    }
+  },
+  "6664889933739752700": {
+    "targets": {
+      "e2e": {
+        "command": "playwright test",
+        "options": {
+          "cwd": "{projectRoot}"
+        },
+        "parallelism": false,
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests",
+          "help": {
+            "command": "pnpm exec playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}\\dist\\.playwright\\applications\\capsule-frontend-e2e\\playwright-report",
+          "{workspaceRoot}\\dist\\.playwright\\applications\\capsule-frontend-e2e\\test-output"
+        ]
+      },
+      "e2e-ci--src/example.spec.ts": {
+        "command": "playwright test src/example.spec.ts",
+        "options": {
+          "cwd": "{projectRoot}"
+        },
+        "parallelism": false,
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests in src/example.spec.ts in CI",
+          "help": {
+            "command": "pnpm exec playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}\\dist\\.playwright\\applications\\capsule-frontend-e2e\\playwright-report",
+          "{workspaceRoot}\\dist\\.playwright\\applications\\capsule-frontend-e2e\\test-output"
+        ]
+      },
+      "e2e-ci": {
+        "executor": "nx:noop",
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}\\dist\\.playwright\\applications\\capsule-frontend-e2e\\playwright-report",
+          "{workspaceRoot}\\dist\\.playwright\\applications\\capsule-frontend-e2e\\test-output"
+        ],
+        "dependsOn": [
+          {
+            "target": "e2e-ci--src/example.spec.ts",
+            "projects": "self",
+            "params": "forward"
+          }
+        ],
+        "parallelism": false,
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests in CI",
+          "nonAtomizedTarget": "e2e",
+          "help": {
+            "command": "pnpm exec playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "metadata": {
+      "targetGroups": {
+        "E2E (CI)": [
+          "e2e-ci--src/example.spec.ts",
+          "e2e-ci"
+        ]
+      }
+    }
+  },
+  "3553195536738566607": {
+    "targets": {
+      "e2e": {
+        "command": "playwright test",
+        "options": {
+          "cwd": "{projectRoot}"
+        },
+        "parallelism": false,
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests",
+          "help": {
+            "command": "pnpm exec playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}\\dist\\.playwright\\applications\\capsule-frontend-e2e\\playwright-report",
+          "{workspaceRoot}\\dist\\.playwright\\applications\\capsule-frontend-e2e\\test-output"
+        ]
+      },
+      "e2e-ci--src/example.spec.ts": {
+        "command": "playwright test src/example.spec.ts",
+        "options": {
+          "cwd": "{projectRoot}"
+        },
+        "parallelism": false,
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests in src/example.spec.ts in CI",
+          "help": {
+            "command": "pnpm exec playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}\\dist\\.playwright\\applications\\capsule-frontend-e2e\\playwright-report",
+          "{workspaceRoot}\\dist\\.playwright\\applications\\capsule-frontend-e2e\\test-output"
+        ]
+      },
+      "e2e-ci": {
+        "executor": "nx:noop",
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "@playwright/test"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}\\dist\\.playwright\\applications\\capsule-frontend-e2e\\playwright-report",
+          "{workspaceRoot}\\dist\\.playwright\\applications\\capsule-frontend-e2e\\test-output"
+        ],
+        "dependsOn": [
+          {
+            "target": "e2e-ci--src/example.spec.ts",
+            "projects": "self",
+            "params": "forward"
+          }
+        ],
+        "parallelism": false,
+        "metadata": {
+          "technologies": [
+            "playwright"
+          ],
+          "description": "Runs Playwright Tests in CI",
+          "nonAtomizedTarget": "e2e",
+          "help": {
+            "command": "pnpm exec playwright test --help",
+            "example": {
+              "options": {
+                "workers": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "metadata": {
+      "targetGroups": {
+        "E2E (CI)": [
+          "e2e-ci--src/example.spec.ts",
+          "e2e-ci"
+        ]
+      }
+    }
   }
 }

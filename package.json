@@ -70,12 +70,15 @@
     "@nestjs/core": "^10.0.2",
     "@nestjs/platform-express": "^10.0.2",
     "@prisma/client": "^6.3.1",
+    "@ts-rest/core": "^3.52.0",
     "@ts-rest/express": "^3.52.0",
+    "@ts-rest/nest": "^3.52.0",
     "axios": "^1.6.0",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-router-dom": "6.11.2",
     "reflect-metadata": "^0.1.13",
-    "rxjs": "^7.8.0"
+    "rxjs": "^7.8.0",
+    "zod": "^3.24.2"
   }
 }
