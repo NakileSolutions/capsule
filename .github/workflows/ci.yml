@@ -1,0 +1,41 @@
+name: Linter Workflow
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  lint:
+    name: Linting Services
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        service:
+          - name: capsule-backend
+            dir: .
+            command: "pnpm exec eslint ./applications/capsule-backend"
+          - name: capsule-contracts
+            dir: .
+            command: "pnpm -F @capsule/contracts install && pnpm -F @capsule/contracts lint"
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '22.14.0'
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: '7'
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Lint ${{ matrix.service.name }}
+        working-directory: ${{ matrix.service.dir }}
+        run: ${{ matrix.service.command }}
