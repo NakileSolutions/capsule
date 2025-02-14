@@ -1,0 +1,1986 @@
+{
+  "applications/capsule-frontend": {
+    "root": [
+      "applications/capsule-frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "applications/capsule-frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.options": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.cache": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.dependsOn": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.inputs": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.outputs": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.executor": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.options.cwd": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.options.command": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.technologies": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.technologies.0": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.description": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.help": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.help.command": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.help.example": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.options": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.executor": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.options.cwd": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.options.command": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.technologies": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.technologies.0": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.description": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.help": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.help.command": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.help.example": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.dependsOn": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.options": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.executor": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.options.cwd": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.options.command": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.technologies": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.technologies.0": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.description": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.help": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.help.command": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.help.example": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.executor": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.options": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.options.buildTarget": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.options.spa": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.cache": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.inputs": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.executor": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options.cwd": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options.command": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.description": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help.command": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help.example": [
+      "applications/capsule-frontend/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.lint": [
+      "applications/capsule-frontend/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "applications/capsule-frontend/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "applications/capsule-frontend/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "applications/capsule-frontend/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "applications/capsule-frontend/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "applications/capsule-frontend/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "applications/capsule-frontend/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "applications/capsule-frontend/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "applications/capsule-frontend/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "applications/capsule-frontend/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "applications/capsule-frontend/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "applications/capsule-frontend/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "applications/capsule-frontend/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "applications/capsule-frontend/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "applications/capsule-frontend/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.test": [
+      "applications/capsule-frontend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options": [
+      "applications/capsule-frontend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata": [
+      "applications/capsule-frontend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.cache": [
+      "applications/capsule-frontend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.inputs": [
+      "applications/capsule-frontend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.outputs": [
+      "applications/capsule-frontend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.executor": [
+      "applications/capsule-frontend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options.cwd": [
+      "applications/capsule-frontend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options.command": [
+      "applications/capsule-frontend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.technologies": [
+      "applications/capsule-frontend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.technologies.0": [
+      "applications/capsule-frontend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.description": [
+      "applications/capsule-frontend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help": [
+      "applications/capsule-frontend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help.command": [
+      "applications/capsule-frontend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help.example": [
+      "applications/capsule-frontend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "name": [
+      "applications/capsule-frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "applications/capsule-frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "applications/capsule-frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "// targets": [
+      "applications/capsule-frontend/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "applications/capsule-frontend/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "applications/capsule-backend": {
+    "root": [
+      "applications/capsule-backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "applications/capsule-backend/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint": [
+      "applications/capsule-backend/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "applications/capsule-backend/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "applications/capsule-backend/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "applications/capsule-backend/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "applications/capsule-backend/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "applications/capsule-backend/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "applications/capsule-backend/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "applications/capsule-backend/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "applications/capsule-backend/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "applications/capsule-backend/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "applications/capsule-backend/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "applications/capsule-backend/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "applications/capsule-backend/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "applications/capsule-backend/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "applications/capsule-backend/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.test": [
+      "applications/capsule-backend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options": [
+      "applications/capsule-backend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata": [
+      "applications/capsule-backend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.cache": [
+      "applications/capsule-backend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.inputs": [
+      "applications/capsule-backend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.outputs": [
+      "applications/capsule-backend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.executor": [
+      "applications/capsule-backend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options.cwd": [
+      "applications/capsule-backend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options.command": [
+      "applications/capsule-backend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.technologies": [
+      "applications/capsule-backend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.technologies.0": [
+      "applications/capsule-backend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.description": [
+      "applications/capsule-backend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help": [
+      "applications/capsule-backend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help.command": [
+      "applications/capsule-backend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help.example": [
+      "applications/capsule-backend/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "projectType": [
+      "applications/capsule-backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "applications/capsule-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.options": [
+      "applications/capsule-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.cache": [
+      "applications/capsule-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.dependsOn": [
+      "applications/capsule-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.inputs": [
+      "applications/capsule-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.outputs": [
+      "applications/capsule-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.metadata": [
+      "applications/capsule-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.executor": [
+      "applications/capsule-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.options.cwd": [
+      "applications/capsule-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.options.args": [
+      "applications/capsule-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.options.command": [
+      "applications/capsule-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.metadata.technologies": [
+      "applications/capsule-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.metadata.technologies.0": [
+      "applications/capsule-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.metadata.description": [
+      "applications/capsule-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.metadata.help": [
+      "applications/capsule-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.metadata.help.command": [
+      "applications/capsule-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.build.metadata.help.example": [
+      "applications/capsule-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview": [
+      "applications/capsule-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options": [
+      "applications/capsule-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata": [
+      "applications/capsule-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.executor": [
+      "applications/capsule-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options.cwd": [
+      "applications/capsule-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options.args": [
+      "applications/capsule-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options.command": [
+      "applications/capsule-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.technologies": [
+      "applications/capsule-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.technologies.0": [
+      "applications/capsule-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.description": [
+      "applications/capsule-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.help": [
+      "applications/capsule-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.help.command": [
+      "applications/capsule-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.help.example": [
+      "applications/capsule-backend/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "name": [
+      "applications/capsule-backend/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "applications/capsule-backend/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "applications/capsule-backend/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "applications/capsule-backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "applications/capsule-backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "applications/capsule-backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.defaultConfiguration": [
+      "applications/capsule-backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.dependsOn": [
+      "applications/capsule-backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "applications/capsule-backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations": [
+      "applications/capsule-backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.buildTarget": [
+      "applications/capsule-backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.runBuildTargetDependencies": [
+      "applications/capsule-backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development": [
+      "applications/capsule-backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development.buildTarget": [
+      "applications/capsule-backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production": [
+      "applications/capsule-backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.buildTarget": [
+      "applications/capsule-backend/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "applications/capsule-backend-e2e": {
+    "root": [
+      "applications/capsule-backend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "applications/capsule-backend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint": [
+      "applications/capsule-backend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "applications/capsule-backend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "applications/capsule-backend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "applications/capsule-backend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "applications/capsule-backend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "applications/capsule-backend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "applications/capsule-backend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "applications/capsule-backend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "applications/capsule-backend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "applications/capsule-backend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "applications/capsule-backend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "applications/capsule-backend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "applications/capsule-backend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "applications/capsule-backend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "applications/capsule-backend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "applications/capsule-backend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "applications/capsule-backend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "applications/capsule-backend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "applications/capsule-backend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.capsule-backend": [
+      "applications/capsule-backend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e": [
+      "applications/capsule-backend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.executor": [
+      "applications/capsule-backend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.outputs": [
+      "applications/capsule-backend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.options": [
+      "applications/capsule-backend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.dependsOn": [
+      "applications/capsule-backend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.options.jestConfig": [
+      "applications/capsule-backend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.options.passWithNoTests": [
+      "applications/capsule-backend-e2e/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "applications/capsule-frontend-e2e": {
+    "root": [
+      "applications/capsule-frontend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "applications/capsule-frontend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint": [
+      "applications/capsule-frontend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "applications/capsule-frontend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "applications/capsule-frontend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "applications/capsule-frontend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "applications/capsule-frontend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "applications/capsule-frontend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "applications/capsule-frontend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "applications/capsule-frontend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "applications/capsule-frontend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "applications/capsule-frontend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "applications/capsule-frontend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "applications/capsule-frontend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "applications/capsule-frontend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "applications/capsule-frontend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "applications/capsule-frontend-e2e/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "metadata.targetGroups": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "metadata.targetGroups.E2E (CI)": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "metadata.targetGroups.E2E (CI).0": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "metadata.targetGroups.E2E (CI).1": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.options": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.parallelism": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.cache": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.inputs": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.outputs": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.executor": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.options.cwd": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.options.command": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata.technologies": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata.technologies.0": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata.description": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata.help": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata.help.command": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e.metadata.help.example": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.options": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.metadata": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.cache": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.inputs": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.outputs": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.executor": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.options.cwd": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.options.command": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.metadata.technologies": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.metadata.technologies.0": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.metadata.description": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.metadata.help": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.metadata.help.command": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.metadata.help.example": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.executor": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.cache": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.inputs": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.outputs": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.dependsOn": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.parallelism": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.technologies": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.technologies.0": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.description": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.nonAtomizedTarget": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.help": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.help.command": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "targets.e2e-ci.metadata.help.example": [
+      "applications/capsule-frontend-e2e/playwright.config.ts",
+      "@nx/playwright/plugin"
+    ],
+    "name": [
+      "applications/capsule-frontend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "applications/capsule-frontend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "applications/capsule-frontend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "applications/capsule-frontend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "// targets": [
+      "applications/capsule-frontend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "applications/capsule-frontend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.capsule-frontend": [
+      "applications/capsule-frontend-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e-ci--src/example.spec.ts.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "packages/gateway": {
+    "root": [
+      "packages/gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "packages/gateway/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint": [
+      "packages/gateway/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "packages/gateway/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "packages/gateway/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "packages/gateway/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "packages/gateway/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "packages/gateway/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "packages/gateway/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "packages/gateway/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "packages/gateway/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "packages/gateway/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "packages/gateway/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "packages/gateway/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "packages/gateway/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "packages/gateway/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "packages/gateway/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.test": [
+      "packages/gateway/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options": [
+      "packages/gateway/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata": [
+      "packages/gateway/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.cache": [
+      "packages/gateway/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.inputs": [
+      "packages/gateway/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.outputs": [
+      "packages/gateway/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.executor": [
+      "packages/gateway/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options.cwd": [
+      "packages/gateway/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options.command": [
+      "packages/gateway/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.technologies": [
+      "packages/gateway/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.technologies.0": [
+      "packages/gateway/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.description": [
+      "packages/gateway/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help": [
+      "packages/gateway/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help.command": [
+      "packages/gateway/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help.example": [
+      "packages/gateway/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.build": [
+      "packages/gateway/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.options": [
+      "packages/gateway/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.cache": [
+      "packages/gateway/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.dependsOn": [
+      "packages/gateway/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.inputs": [
+      "packages/gateway/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.outputs": [
+      "packages/gateway/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.executor": [
+      "packages/gateway/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.options.cwd": [
+      "packages/gateway/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.options.command": [
+      "packages/gateway/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "sourceRoot": [
+      "packages/gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "packages/gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "packages/gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "packages/gateway/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "packages/gateway/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/gateway/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/gateway/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/gateway/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/gateway/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/gateway/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "packages/gateway/project.json",
+      "nx/core/project-json"
+    ],
+    "// targets": [
+      "packages/gateway/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "packages/interactions": {
+    "root": [
+      "packages/interactions/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "packages/interactions/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint": [
+      "packages/interactions/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "packages/interactions/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "packages/interactions/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "packages/interactions/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "packages/interactions/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "packages/interactions/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "packages/interactions/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "packages/interactions/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "packages/interactions/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "packages/interactions/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "packages/interactions/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "packages/interactions/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "packages/interactions/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "packages/interactions/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "packages/interactions/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.test": [
+      "packages/interactions/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options": [
+      "packages/interactions/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata": [
+      "packages/interactions/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.cache": [
+      "packages/interactions/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.inputs": [
+      "packages/interactions/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.outputs": [
+      "packages/interactions/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.executor": [
+      "packages/interactions/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options.cwd": [
+      "packages/interactions/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options.command": [
+      "packages/interactions/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.technologies": [
+      "packages/interactions/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.technologies.0": [
+      "packages/interactions/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.description": [
+      "packages/interactions/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help": [
+      "packages/interactions/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help.command": [
+      "packages/interactions/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help.example": [
+      "packages/interactions/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.build": [
+      "packages/interactions/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.options": [
+      "packages/interactions/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.cache": [
+      "packages/interactions/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.dependsOn": [
+      "packages/interactions/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.inputs": [
+      "packages/interactions/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.outputs": [
+      "packages/interactions/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.executor": [
+      "packages/interactions/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.options.cwd": [
+      "packages/interactions/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.options.command": [
+      "packages/interactions/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "sourceRoot": [
+      "packages/interactions/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "packages/interactions/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "packages/interactions/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "packages/interactions/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "packages/interactions/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/interactions/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/interactions/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/interactions/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/interactions/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/interactions/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "packages/interactions/project.json",
+      "nx/core/project-json"
+    ],
+    "// targets": [
+      "packages/interactions/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "packages/magazine": {
+    "root": [
+      "packages/magazine/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "packages/magazine/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint": [
+      "packages/magazine/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "packages/magazine/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "packages/magazine/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "packages/magazine/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "packages/magazine/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "packages/magazine/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "packages/magazine/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "packages/magazine/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "packages/magazine/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "packages/magazine/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "packages/magazine/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "packages/magazine/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "packages/magazine/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "packages/magazine/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "packages/magazine/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.test": [
+      "packages/magazine/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options": [
+      "packages/magazine/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata": [
+      "packages/magazine/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.cache": [
+      "packages/magazine/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.inputs": [
+      "packages/magazine/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.outputs": [
+      "packages/magazine/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.executor": [
+      "packages/magazine/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options.cwd": [
+      "packages/magazine/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options.command": [
+      "packages/magazine/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.technologies": [
+      "packages/magazine/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.technologies.0": [
+      "packages/magazine/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.description": [
+      "packages/magazine/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help": [
+      "packages/magazine/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help.command": [
+      "packages/magazine/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help.example": [
+      "packages/magazine/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.build": [
+      "packages/magazine/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.options": [
+      "packages/magazine/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.cache": [
+      "packages/magazine/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.dependsOn": [
+      "packages/magazine/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.inputs": [
+      "packages/magazine/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.outputs": [
+      "packages/magazine/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.executor": [
+      "packages/magazine/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.options.cwd": [
+      "packages/magazine/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.options.command": [
+      "packages/magazine/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "sourceRoot": [
+      "packages/magazine/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "packages/magazine/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "packages/magazine/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "packages/magazine/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "packages/magazine/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/magazine/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/magazine/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/magazine/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/magazine/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/magazine/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "packages/magazine/project.json",
+      "nx/core/project-json"
+    ],
+    "// targets": [
+      "packages/magazine/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "packages/users": {
+    "root": [
+      "packages/users/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "packages/users/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint": [
+      "packages/users/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "packages/users/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "packages/users/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "packages/users/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "packages/users/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "packages/users/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "packages/users/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "packages/users/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "packages/users/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "packages/users/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "packages/users/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "packages/users/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "packages/users/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "packages/users/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "packages/users/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.test": [
+      "packages/users/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options": [
+      "packages/users/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata": [
+      "packages/users/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.cache": [
+      "packages/users/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.inputs": [
+      "packages/users/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.outputs": [
+      "packages/users/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.executor": [
+      "packages/users/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options.cwd": [
+      "packages/users/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.options.command": [
+      "packages/users/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.technologies": [
+      "packages/users/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.technologies.0": [
+      "packages/users/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.description": [
+      "packages/users/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help": [
+      "packages/users/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help.command": [
+      "packages/users/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.test.metadata.help.example": [
+      "packages/users/jest.config.ts",
+      "@nx/jest/plugin"
+    ],
+    "targets.build": [
+      "packages/users/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.options": [
+      "packages/users/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.cache": [
+      "packages/users/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.dependsOn": [
+      "packages/users/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.inputs": [
+      "packages/users/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.outputs": [
+      "packages/users/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.executor": [
+      "packages/users/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.options.cwd": [
+      "packages/users/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "targets.build.options.command": [
+      "packages/users/rollup.config.js",
+      "@nx/rollup/plugin"
+    ],
+    "sourceRoot": [
+      "packages/users/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "packages/users/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "packages/users/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "packages/users/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "packages/users/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/users/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/users/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/users/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/users/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/users/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "packages/users/project.json",
+      "nx/core/project-json"
+    ],
+    "// targets": [
+      "packages/users/project.json",
+      "nx/core/project-json"
+    ]
+  }
+}

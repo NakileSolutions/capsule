@@ -1,0 +1,612 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.4.4",
+  "pathMappings": {
+    "@capsule/gateway": [
+      "packages/gateway/src/index.ts"
+    ],
+    "@capsule/interactions": [
+      "packages/interactions/src/index.ts"
+    ],
+    "@capsule/magazine": [
+      "packages/magazine/src/index.ts"
+    ],
+    "@capsule/users": [
+      "packages/users/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/vite/plugin",
+      "options": {
+        "buildTargetName": "build",
+        "testTargetName": "test",
+        "serveTargetName": "serve",
+        "previewTargetName": "preview",
+        "serveStaticTargetName": "serve-static",
+        "typecheckTargetName": "typecheck"
+      }
+    },
+    {
+      "name": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    },
+    {
+      "name": "@nx/playwright/plugin",
+      "options": {
+        "targetName": "e2e"
+      }
+    },
+    {
+      "name": "@nx/jest/plugin",
+      "options": {
+        "targetName": "test"
+      }
+    },
+    {
+      "name": "@nx/webpack/plugin",
+      "options": {
+        "buildTargetName": "build",
+        "serveTargetName": "serve",
+        "previewTargetName": "preview"
+      }
+    },
+    {
+      "name": "@nx/rollup/plugin",
+      "options": {
+        "buildTargetName": "build"
+      }
+    }
+  ],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".prettierignore",
+        "hash": "14688272390704683536"
+      },
+      {
+        "file": ".npmrc",
+        "hash": "1880664178033616490"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16093133585484698613"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "10358289102620428720"
+      },
+      {
+        "file": "README.md",
+        "hash": "7140638132525312567"
+      },
+      {
+        "file": "package.json",
+        "hash": "12411105963160822340"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "9875838657940476976"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": "nx.json",
+        "hash": "9971289392190573355"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "4422400126597322578"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "3494843969422251966"
+      },
+      {
+        "file": "eslint.config.js",
+        "hash": "2478217381773231556"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "1681728433399700511"
+      }
+    ],
+    "projectFileMap": {
+      "interactions": [
+        {
+          "file": "packages/interactions/.swcrc",
+          "hash": "3236768094882387443"
+        },
+        {
+          "file": "packages/interactions/README.md",
+          "hash": "11174676784814014847"
+        },
+        {
+          "file": "packages/interactions/eslint.config.js",
+          "hash": "16287122609924064830",
+          "deps": [
+            "npm:jsonc-eslint-parser"
+          ]
+        },
+        {
+          "file": "packages/interactions/jest.config.ts",
+          "hash": "6719599168273444527"
+        },
+        {
+          "file": "packages/interactions/package.json",
+          "hash": "5982889270352424285"
+        },
+        {
+          "file": "packages/interactions/project.json",
+          "hash": "62624788661600988"
+        },
+        {
+          "file": "packages/interactions/rollup.config.js",
+          "hash": "5759593005619954405",
+          "deps": [
+            "npm:@nx/rollup"
+          ]
+        },
+        {
+          "file": "packages/interactions/src/index.ts",
+          "hash": "17694839424995291874"
+        },
+        {
+          "file": "packages/interactions/src/lib/interactions.spec.ts",
+          "hash": "3090371608133517691"
+        },
+        {
+          "file": "packages/interactions/src/lib/interactions.ts",
+          "hash": "18343866864455166214"
+        },
+        {
+          "file": "packages/interactions/tsconfig.json",
+          "hash": "5840880287502376438"
+        },
+        {
+          "file": "packages/interactions/tsconfig.lib.json",
+          "hash": "3632393694954060084"
+        },
+        {
+          "file": "packages/interactions/tsconfig.spec.json",
+          "hash": "11550347367511341917"
+        }
+      ],
+      "capsule-backend": [
+        {
+          "file": "applications/capsule-backend/eslint.config.js",
+          "hash": "17472210594086834595"
+        },
+        {
+          "file": "applications/capsule-backend/jest.config.ts",
+          "hash": "8843931135304370769"
+        },
+        {
+          "file": "applications/capsule-backend/project.json",
+          "hash": "9544775687484562744"
+        },
+        {
+          "file": "applications/capsule-backend/src/app/app.controller.spec.ts",
+          "hash": "9499997688052526633",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "applications/capsule-backend/src/app/app.controller.ts",
+          "hash": "9005150069945785676",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "applications/capsule-backend/src/app/app.module.ts",
+          "hash": "3163250445227373966",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "applications/capsule-backend/src/app/app.service.spec.ts",
+          "hash": "8587461140686713758",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "applications/capsule-backend/src/app/app.service.ts",
+          "hash": "9967902337593410053",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "applications/capsule-backend/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "applications/capsule-backend/src/main.ts",
+          "hash": "11205222914964382693",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/core"
+          ]
+        },
+        {
+          "file": "applications/capsule-backend/tsconfig.app.json",
+          "hash": "3171572500325445971"
+        },
+        {
+          "file": "applications/capsule-backend/tsconfig.json",
+          "hash": "3490524966360018312"
+        },
+        {
+          "file": "applications/capsule-backend/tsconfig.spec.json",
+          "hash": "11550347367511341917"
+        },
+        {
+          "file": "applications/capsule-backend/webpack.config.js",
+          "hash": "16188309077739944977",
+          "deps": [
+            "npm:@nx/webpack"
+          ]
+        }
+      ],
+      "users": [
+        {
+          "file": "packages/users/.swcrc",
+          "hash": "3236768094882387443"
+        },
+        {
+          "file": "packages/users/README.md",
+          "hash": "14987329270534536365"
+        },
+        {
+          "file": "packages/users/eslint.config.js",
+          "hash": "16287122609924064830",
+          "deps": [
+            "npm:jsonc-eslint-parser"
+          ]
+        },
+        {
+          "file": "packages/users/jest.config.ts",
+          "hash": "15822001868973484743"
+        },
+        {
+          "file": "packages/users/package.json",
+          "hash": "13475734983448467737"
+        },
+        {
+          "file": "packages/users/project.json",
+          "hash": "18025667411248797443"
+        },
+        {
+          "file": "packages/users/rollup.config.js",
+          "hash": "10087560843110409771",
+          "deps": [
+            "npm:@nx/rollup"
+          ]
+        },
+        {
+          "file": "packages/users/src/index.ts",
+          "hash": "4341971490996474234"
+        },
+        {
+          "file": "packages/users/src/lib/users.spec.ts",
+          "hash": "6461968114313481651"
+        },
+        {
+          "file": "packages/users/src/lib/users.ts",
+          "hash": "5263129426326027102"
+        },
+        {
+          "file": "packages/users/tsconfig.json",
+          "hash": "5840880287502376438"
+        },
+        {
+          "file": "packages/users/tsconfig.lib.json",
+          "hash": "3632393694954060084"
+        },
+        {
+          "file": "packages/users/tsconfig.spec.json",
+          "hash": "11550347367511341917"
+        }
+      ],
+      "capsule-frontend-e2e": [
+        {
+          "file": "applications/capsule-frontend-e2e/eslint.config.js",
+          "hash": "16036574244995039563",
+          "deps": [
+            "npm:eslint-plugin-playwright"
+          ]
+        },
+        {
+          "file": "applications/capsule-frontend-e2e/playwright.config.ts",
+          "hash": "2380685619270463368",
+          "deps": [
+            "npm:@playwright/test",
+            "npm:@nx/playwright",
+            "npm:@nx/devkit"
+          ]
+        },
+        {
+          "file": "applications/capsule-frontend-e2e/project.json",
+          "hash": "6574261413503129963"
+        },
+        {
+          "file": "applications/capsule-frontend-e2e/src/example.spec.ts",
+          "hash": "16019101014373124625",
+          "deps": [
+            "npm:@playwright/test"
+          ]
+        },
+        {
+          "file": "applications/capsule-frontend-e2e/tsconfig.json",
+          "hash": "13413400511057489941"
+        }
+      ],
+      "magazine": [
+        {
+          "file": "packages/magazine/.swcrc",
+          "hash": "3236768094882387443"
+        },
+        {
+          "file": "packages/magazine/README.md",
+          "hash": "16079057632674046784"
+        },
+        {
+          "file": "packages/magazine/eslint.config.js",
+          "hash": "16287122609924064830",
+          "deps": [
+            "npm:jsonc-eslint-parser"
+          ]
+        },
+        {
+          "file": "packages/magazine/jest.config.ts",
+          "hash": "13507535859833907176"
+        },
+        {
+          "file": "packages/magazine/package.json",
+          "hash": "5813764166050106657"
+        },
+        {
+          "file": "packages/magazine/project.json",
+          "hash": "11856552739328414476"
+        },
+        {
+          "file": "packages/magazine/rollup.config.js",
+          "hash": "3740187004886977666",
+          "deps": [
+            "npm:@nx/rollup"
+          ]
+        },
+        {
+          "file": "packages/magazine/src/index.ts",
+          "hash": "5633869986631222432"
+        },
+        {
+          "file": "packages/magazine/src/lib/magazine.spec.ts",
+          "hash": "16093574685016837578"
+        },
+        {
+          "file": "packages/magazine/src/lib/magazine.ts",
+          "hash": "17570947134694225919"
+        },
+        {
+          "file": "packages/magazine/tsconfig.json",
+          "hash": "5840880287502376438"
+        },
+        {
+          "file": "packages/magazine/tsconfig.lib.json",
+          "hash": "3632393694954060084"
+        },
+        {
+          "file": "packages/magazine/tsconfig.spec.json",
+          "hash": "11550347367511341917"
+        }
+      ],
+      "capsule-frontend": [
+        {
+          "file": "applications/capsule-frontend/eslint.config.js",
+          "hash": "18206053935892145363",
+          "deps": [
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "applications/capsule-frontend/index.html",
+          "hash": "14903609230890461150"
+        },
+        {
+          "file": "applications/capsule-frontend/jest.config.ts",
+          "hash": "6606225192830895728"
+        },
+        {
+          "file": "applications/capsule-frontend/project.json",
+          "hash": "18273751523436687685"
+        },
+        {
+          "file": "applications/capsule-frontend/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "applications/capsule-frontend/src/app/app.module.scss",
+          "hash": "8887387885984320532"
+        },
+        {
+          "file": "applications/capsule-frontend/src/app/app.spec.tsx",
+          "hash": "15098672909370398991",
+          "deps": [
+            "npm:@testing-library/react",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "applications/capsule-frontend/src/app/app.tsx",
+          "hash": "2324360915936850015",
+          "deps": [
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "applications/capsule-frontend/src/app/nx-welcome.tsx",
+          "hash": "2348102959109701629"
+        },
+        {
+          "file": "applications/capsule-frontend/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "applications/capsule-frontend/src/main.tsx",
+          "hash": "763379880219152615",
+          "deps": [
+            "npm:react",
+            "npm:react-dom",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "applications/capsule-frontend/src/styles.scss",
+          "hash": "5195668842064076916"
+        },
+        {
+          "file": "applications/capsule-frontend/tsconfig.app.json",
+          "hash": "7232119452847825095"
+        },
+        {
+          "file": "applications/capsule-frontend/tsconfig.json",
+          "hash": "824604371006306276"
+        },
+        {
+          "file": "applications/capsule-frontend/tsconfig.spec.json",
+          "hash": "11378287594513225419"
+        },
+        {
+          "file": "applications/capsule-frontend/vite.config.ts",
+          "hash": "437724101370349001",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react",
+            "npm:@nx/vite"
+          ]
+        }
+      ],
+      "capsule-backend-e2e": [
+        {
+          "file": "applications/capsule-backend-e2e/eslint.config.js",
+          "hash": "17472210594086834595"
+        },
+        {
+          "file": "applications/capsule-backend-e2e/jest.config.ts",
+          "hash": "17203316826602474196"
+        },
+        {
+          "file": "applications/capsule-backend-e2e/project.json",
+          "hash": "11465107082644118900"
+        },
+        {
+          "file": "applications/capsule-backend-e2e/src/capsule-backend/capsule-backend.spec.ts",
+          "hash": "110394728024017389",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "applications/capsule-backend-e2e/src/support/global-setup.ts",
+          "hash": "2568409276037275290"
+        },
+        {
+          "file": "applications/capsule-backend-e2e/src/support/global-teardown.ts",
+          "hash": "5275447082211835490"
+        },
+        {
+          "file": "applications/capsule-backend-e2e/src/support/test-setup.ts",
+          "hash": "10984585515912236441",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "applications/capsule-backend-e2e/tsconfig.json",
+          "hash": "15443990093475294480"
+        },
+        {
+          "file": "applications/capsule-backend-e2e/tsconfig.spec.json",
+          "hash": "14954872453723519891"
+        }
+      ],
+      "gateway": [
+        {
+          "file": "packages/gateway/.swcrc",
+          "hash": "3236768094882387443"
+        },
+        {
+          "file": "packages/gateway/README.md",
+          "hash": "1364337839434886689"
+        },
+        {
+          "file": "packages/gateway/eslint.config.js",
+          "hash": "16287122609924064830",
+          "deps": [
+            "npm:jsonc-eslint-parser"
+          ]
+        },
+        {
+          "file": "packages/gateway/jest.config.ts",
+          "hash": "4060300796163375753"
+        },
+        {
+          "file": "packages/gateway/package.json",
+          "hash": "4048376732590799967"
+        },
+        {
+          "file": "packages/gateway/project.json",
+          "hash": "2132737404845378545"
+        },
+        {
+          "file": "packages/gateway/rollup.config.js",
+          "hash": "10470744805842013625",
+          "deps": [
+            "npm:@nx/rollup"
+          ]
+        },
+        {
+          "file": "packages/gateway/src/index.ts",
+          "hash": "12236369081720124045"
+        },
+        {
+          "file": "packages/gateway/src/lib/gateway.spec.ts",
+          "hash": "9004206076071761407"
+        },
+        {
+          "file": "packages/gateway/src/lib/gateway.ts",
+          "hash": "1603237431058796631"
+        },
+        {
+          "file": "packages/gateway/tsconfig.json",
+          "hash": "5840880287502376438"
+        },
+        {
+          "file": "packages/gateway/tsconfig.lib.json",
+          "hash": "3632393694954060084"
+        },
+        {
+          "file": "packages/gateway/tsconfig.spec.json",
+          "hash": "11550347367511341917"
+        }
+      ]
+    }
+  }
+}
