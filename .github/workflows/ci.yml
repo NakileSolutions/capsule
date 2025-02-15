@@ -1,4 +1,4 @@
-name: Linter Workflow
+name: Check Workflow
 
 on:
   push:
@@ -7,8 +7,8 @@ on:
     branches: [ master ]
 
 jobs:
-  lint:
-    name: Linting Services
+  install:
+    name: Install Dependencies
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -24,10 +24,83 @@ jobs:
           node-version: '22.14.0'
           cache: 'pnpm'
 
+      - name: Create pnpm store directory
+        run: mkdir -p ~/.pnpm-store
+
+      - name: Restore pnpm store cache
+        id: cache
+        uses: actions/cache@v3
+        with:
+          path: ~/.pnpm-store
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - uses: nrwl/nx-set-shas@v4
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    needs: install
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Lint
-        run: "pnpm exec nx run-many -t=lint"
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '22.14.0'
+          cache: 'pnpm'
+
+      - name: Restore pnpm store cache
+        id: cache
+        uses: actions/cache@v3
+        with:
+          path: ~/.pnpm-store
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Run lint
+        run: pnpm exec nx run-many -t=lint
+
+#  build:
+#    name: Build
+#    runs-on: ubuntu-latest
+#    needs: install
+#    steps:
+#      - name: Checkout repository
+#        uses: actions/checkout@v4
+#
+#      - uses: pnpm/action-setup@v4
+#        with:
+#          version: 9
+#
+#      - name: Setup Node.js
+#        uses: actions/setup-node@v3
+#        with:
+#          node-version: '22.14.0'
+#          cache: 'pnpm'
+#
+#      - name: Restore pnpm store cache
+#        id: cache
+#        uses: actions/cache@v3
+#        with:
+#          path: ~/.pnpm-store
+#          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('pnpm-lock.yaml') }}
+#          restore-keys: |
+#            ${{ runner.os }}-pnpm-store-
+#
+#      - name: Install dependencies
+#        run: pnpm install --frozen-lockfile
+#
+#      - name: Run build
+#        run: pnpm exec nx run-many -t=build
