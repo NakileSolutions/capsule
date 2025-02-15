@@ -1,1 +1,2 @@
-export * from './contracts/magazines/magazine.api';
+export * from './contracts';
+export * from './schemas';

@@ -1,1 +1,2 @@
-export * from "./magazines/magazine.api";
+export * from './magazines';
+export * from './auth';

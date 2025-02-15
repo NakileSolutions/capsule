@@ -1,4 +1,5 @@
 import { initContract } from '@ts-rest/core';
+import { ResponseSchema } from '../../schemas';
 
 const c = initContract();
 
@@ -8,8 +9,8 @@ export const magazineContract = c.router({
     path: '/magazines',
     query: undefined,
     responses: {
-      200: null
+      200: ResponseSchema,
     },
-    summary: "list magazines"
-  }
-})
+    summary: 'list magazines',
+  },
+});
