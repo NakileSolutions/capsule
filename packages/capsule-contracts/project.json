@@ -1,5 +1,5 @@
 {
-  "name": "contracts",
+  "name": "capsule-contracts",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "packages/capsule-contracts/src",
   "projectType": "library",
