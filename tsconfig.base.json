@@ -19,7 +19,8 @@
       "@capsule/gateway": ["packages/gateway/src/index.ts"],
       "@capsule/interactions": ["packages/interactions/src/index.ts"],
       "@capsule/magazine": ["packages/magazine/src/index.ts"],
-      "@capsule/users": ["packages/users/src/index.ts"]
+      "@capsule/users": ["packages/users/src/index.ts"],
+      "@capsule/auth": ["packages/auth/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
